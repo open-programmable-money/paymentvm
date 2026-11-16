@@ -1,0 +1,35 @@
+{
+  "name": "@open-pm/paymentvm",
+  "version": "1.0.0-rc1",
+  "description": "",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "files": [
+    "src/**/*.sol",
+    "remappings.txt",
+    "README.md",
+    "COPYRIGHT",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "forge build",
+    "test": "forge test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/open-programmable-money/paymentvm.git"
+  },
+  "keywords": [
+    "solidity",
+    "smart-contracts"
+  ],
+  "author": "open-pm-dev",
+  "license": "SEE LICENSE",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/open-programmable-money/paymentvm/issues"
+  },
+  "homepage": "https://github.com/open-programmable-money/paymentvm/#readme"
+}

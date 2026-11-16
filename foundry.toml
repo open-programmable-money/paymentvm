@@ -1,0 +1,26 @@
+[profile.default]
+evm_version = "cancun"
+src = "src"
+out = "out"
+solc_version = "0.8.37" 
+via_ir = true
+optimizer = true
+optimizer_runs = 200 # default
+
+libs = ["lib"]
+
+[fmt]
+bracket_spacing = true
+docs_style = "line"
+ignore = ["./script/**/*", "./lib/**/*"]
+line_length = 120
+wrap_comments = true
+multiline_func_header = "params_first_multi"
+number_underscore = "thousands"
+quote_style = "double"
+single_line_statement_blocks = "single"
+sort_imports = true
+tab_width = 4
+int_types = "short"
+
+# See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
